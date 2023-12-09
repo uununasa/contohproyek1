@@ -11,8 +11,3 @@ void tampilkanData() {
              << setw(15) << provinsi[i].SD << setw(15) << provinsi[i].SMP << setw(15) << provinsi[i].SMA
              << setw(20) << provinsi[i].perguruan_tinggi << setw(15) << endl;
     }
-
-    cout << "\n===================================================================================================================================================================================\n";
-    getch(); // Menunggu sampai tombol ditekan
-    system("cls");
-}
